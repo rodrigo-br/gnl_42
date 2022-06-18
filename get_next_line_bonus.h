@@ -6,7 +6,7 @@
 /*   By: ralves-b <ralves-b@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/18 01:50:04 by ralves-b          #+#    #+#             */
-/*   Updated: 2022/06/18 01:50:39 by ralves-b         ###   ########.fr       */
+/*   Updated: 2022/06/18 02:28:01 by ralves-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-# include <stdio.h> // APAGAR-ME
-# include <fcntl.h> // APAGAR-ME
 char	*get_next_line(int fd);
 char	*ft_strdup(const char *s);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
